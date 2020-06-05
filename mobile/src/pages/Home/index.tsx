@@ -7,8 +7,8 @@ import {useNavigation} from '@react-navigation/native';
 //TODO: use react-native-picker-select
 
 const Home = () => {
-    const [uf,setUf] = useState('');
-    const [city,setCity] = useState('');
+    const [uf,setUf] = useState('SP');
+    const [city,setCity] = useState('São Paulo');
 
     const navigation = useNavigation();
 
@@ -16,7 +16,7 @@ const Home = () => {
         navigation.navigate("Points", {uf,city});
 
     }
-
+    
     return (
         <KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS === "ios"?'padding':undefined}>
             <ImageBackground 
