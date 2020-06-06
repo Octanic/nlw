@@ -3,10 +3,10 @@
 Ecoleta application - end to end application for registering recycle collection points: Application made during Next Level Week
 
 # What's inside?
-Here you have a **web** application, a **server** for backend and a **mobile** application
+Here you have a **web** application, a **server** for backend and a **mobile** application.
 
 ## Web Application
-Made using React with TypeScript. This page is used to register a new recycle collection point. And perhaps it also need your location permission.
+Made using React with TypeScript. This page is used to register a new recycle collection point. And perhaps it also needs your location permission.
 ### How to run?
 Just run `npm start`. Make sure you have the *Server Application* up and running.
 
@@ -14,7 +14,7 @@ Just run `npm start`. Make sure you have the *Server Application* up and running
 Made with TypeScript! This contains the REST API used by the Web Application and the Mobile Application
 > Please run it first in order to run everything else.
 ### How to run?
-Run `npm run migrate` then `npm run seed` to generate the database and to populate it with data, respectively. Then, `npm run dev`.
+Run `npm run migrate` then `npm run seed` to generate the database and to populate it with data, respectively. Then, run `npm run dev`.
 
 **Protip:** Do not trust any sqlite file in this repo, if any. It won't kill you, but it may contain arbitrary test data.
 
